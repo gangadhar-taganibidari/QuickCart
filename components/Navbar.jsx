@@ -71,17 +71,7 @@ const Navbar = () => {
           <UserButton afterSignOutUrl="/">
             <UserButton.MenuItems>
 
-              <UserButton.Link
-                label="Home"
-                href="/"
-                labelIcon={<span>🏠</span>}
-              />
-
-              <UserButton.Link
-                label="Products"
-                href="/all-products"
-                labelIcon={<span>🛍️</span>}
-              />
+             
 
               <UserButton.Link
                 label="Cart"
